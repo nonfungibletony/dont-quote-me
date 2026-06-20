@@ -1,0 +1,1242 @@
+I have a Hermes agent ready to be put to work. I have a product in mind and I want the AI to product a research report. Problem – Tradespeople waste time on the quoting workflow (calls, site visits, measurements, photos, BOM, pricing, draft quote). Proposed AI solution – A multimodal app that captures voice, measurements, and photos on‑site, then uses AI to:
+
+    Generate a detailed Bill of Materials.
+    Estimate quantities from the captured measurements.
+    Query supplier APIs (e.g., Bunnings) for current prices.
+    Draft a quote for internal review.
+    Render a 3‑D sketch or schematic of the finished job.
+    (Future) Auto‑place orders after customer acceptance. Before we jump into the solution, I want to be clear of the problem we're trying to solve. What are the pain points for tradespeople when it comes to quoting. Quotes that don't land, time wasters, labour intensive, don't convert to actual contracts, etc. I want you do a deep reasearch looking into web for hard evidence and anecdotal stories. I want a product/service that tackles these pain points. As a pitch I'm not selling AI but efficiency, conversions, profitability, etc. Give me a research report and build a business case for this product which is now called "Don't Quote Me."
+
+Research Report and Business Case: "Don't Quote Me" – Solving the Quoting Nightmare for Tradespeople
+Executive Summary
+
+Tradespeople in construction, electrical, plumbing, carpentry, and related fields lose massive amounts of time, money, and opportunities in the quoting workflow. Manual processes—site visits, measurements, photos, Bill of Materials (BOM) creation, pricing lookups, and draft quotes—turn what should be a quick sales step into a labour-intensive bottleneck. The result: low conversion rates (often 38–62% of quotes fail to land jobs), inaccurate estimates that erode margins or kill deals, and frustration on both tradie and client sides.
+
+"Don't Quote Me" is a multimodal mobile app that captures voice notes, on-site measurements, and photos in real time, then uses AI to instantly generate a detailed BOM, quantity estimates, supplier-priced quotes (e.g., via Bunnings and other APIs), a professional draft for internal review, and even a 3D schematic. It pitches efficiency, higher win rates, and profitability—not flashy AI. Early adopters could reclaim 10–20+ hours per week of admin time, boost quote-to-job conversions, protect margins amid volatile costs, and scale without burning out. In Australia’s trades-short market (with national shortages across all construction occupations and a push for 1.2 million new homes), this directly addresses Master Builders Australia-noted supply constraints and cost pressures.⁠Masterbuilders
+
+The global construction estimating software market is already growing rapidly (from ~USD 1.5B in 2024 to USD 2.62B by 2030 at 10.2% CAGR), proving demand for tools that cut quoting friction.⁠Grandviewresearch
+The Problem: Deep Dive into Quoting Pain Points
+
+Extensive web research (industry reports, contractor surveys, forums, and trade blogs) reveals consistent, evidence-backed frustrations. Quotes are not just slow—they’re a profitability killer.
+
+    Time-Consuming and Labour-Intensive Workflow
+        Manual data entry, repeated lookups for materials/labour/subcontractor prices, and back-and-forth revisions dominate. 17% of businesses cite manual data entry and 17% cite lack of tool integration as top CRM/quoting challenges.⁠Quintadena
+        Tradify’s reports (UK/AU data) show quoting consumes ~51% of admin time, with specialists spending ~16 hours/week (UK) or up to ~19 hours/week (AU) on non-billable admin like quoting and invoicing. Anecdotes include 2–3 hours per day just on quotes, or up to 2 weeks for complex estimates.
+        Site visits, measurements, photos, and follow-ups add physical and administrative burden—often for jobs that never convert.
+    Low Conversion Rates and "Time Wasters"
+        Median conversion hovers around 38% overall (62% of quoting effort wasted); even when filtering to decided quotes, many hit only 60–74%. One dataset of 432k+ quotes showed quotes that don’t convert sit untouched for a median 29 days.
+        Australian builders report “time-consuming quotes with low conversion” after days of effort on unprepared clients or incomplete plans. Clients shop around, ghost after quotes, or pick the cheapest (often riskier) option.⁠Ayrmont
+        Reddit/Facebook trades forums are full of stories: tradies driving to sites only for no follow-through; customers complaining of slow or non-existent quotes; builders quoting 45 jobs/month but winning just 5.⁠Facebook
+    Inaccuracy, Volatility, and Margin Erosion
+        Prices for materials (timber, steel, etc.) fluctuate weekly due to supply chains and inflation. Labour rates change with shortages. Fixed-price quotes locked months ahead become loss-makers.⁠Ayrmont
+        Manual BOMs and estimates lead to errors: under-quoting (lost profit) or over-quoting (lost jobs). Incomplete plans/specs cause scope creep, variations, or rework. Bad data globally cost the industry $1.8 trillion in 2020 (including $88B in avoidable rework).⁠Msuite
+        In Australia: Rising costs (+39.7% post-pandemic), labour shortages (universal across trades), and longer build times amplify quoting risk. Master Builders Australia highlights workforce shortages as a core barrier to meeting housing targets.⁠Masterbuilders
+    Anecdotal Realities from the Trenches
+        Tradespeople: “Estimates are a huge pain point… it can take 2 weeks.” “Quotation process a pain?” Forums echo burnout from unpaid quoting time.
+        Clients: Frustration with delays, no-shows, or vague quotes—leading to “get 3 quotes” advice that just multiplies the problem for tradies.⁠Reddit
+        Broader impact: Quotes eat into billable time in a high-demand market, limiting growth. Poor quotes also damage trust and reputation.
+
+These pain points compound: time wasted → fewer jobs completed → lower revenue → burnout or business stagnation.
+Market Opportunity
+
+    Huge Addressable Market: Australia’s construction sector faces acute pressure—housing shortfall, skilled labour shortages, and $1.38T in forecasted building work over 5 years. Trades businesses (electricians, plumbers, builders, etc.) are prime users.⁠Masterbuilders
+    Software Adoption Gap: Many still rely on spreadsheets/Word. The global estimating software boom shows tradies want solutions that deliver real ROI.
+    Competitive Edge: Existing tools are often desktop-heavy, bloated, or lack true on-site multimodal capture + real-time supplier pricing + 3D output. Bunnings already offers partner APIs for pricing/stock integration—perfect for “Don’t Quote Me.”⁠Developer.live.bunnings
+
+The "Don't Quote Me" Solution and Business Case
+
+Core Value Proposition: Turn chaotic on-site quoting into a 15–30 minute process that produces a professional, accurate, priced quote—while you’re still at the job.
+
+    Capture voice, measurements, photos → AI auto-generates BOM, quantities, 3D sketch/schematic.
+    Real-time supplier pricing queries (Bunnings etc.).
+    Instant draft quote for review/approval.
+    Future: Auto-order placement post-acceptance.
+
+Quantifiable Benefits (Efficiency, Conversions, Profitability):
+
+    Time Savings: Slash quoting from hours/days to minutes. Reclaim 10–20+ admin hours/week → more jobs completed or more leads quoted. Direct bottom-line impact (tradies bill by the hour/job).
+    Higher Conversion Rates: Same-day professional quotes reduce “stale quote” losses (49% of lost quotes linger 30+ days). Faster, visual, accurate proposals build trust and close deals. Even a 10–20% lift (e.g., from 38% to 48–58%) on the same volume can add hundreds of thousands in revenue.⁠Levelcfo
+    Better Margins & Fewer Losses: Real-time pricing + accurate quantities = fewer under/overquotes. Reduce rework from scope errors. Protect against volatility with provisional sums/escalation visibility.
+    Scalability & Competitive Edge: Handle more leads without extra staff. Stand out with polished 3D visuals and transparency—clients love seeing the job rendered instantly. In AU’s competitive, shortage-driven market, this wins work.
+    ROI Example: A solo tradie or small team spending 15–20 hours/week quoting could redirect that to billable work or double quoting volume. At typical margins (2–5% net in construction), the payback is rapid. Reduced bad-data losses compound gains.
+
+Go-to-Market Fit: Freemium mobile-first app for solo tradies scaling to teams. Subscription tiers tied to jobs/volume. Integrations with existing accounting/job tools. Pitch: “Stop wasting time on quotes that don’t land. Get paid faster, win more, protect your margins.”
+Risks and Mitigations
+
+    Adoption: Start with simple on-site capture; offer templates/training.
+    Accuracy: Human review step before sending; continuous AI learning from user data.
+    Data Privacy/Integration: Secure, compliant (AU standards); partner APIs like Bunnings.
+
+Conclusion and Call to Action
+
+The quoting problem is real, well-documented, and expensive—tradies are bleeding time and opportunities daily. "Don’t Quote Me" directly attacks the root causes with a practical, on-site-first tool that delivers measurable efficiency, higher conversions, and stronger profitability. It’s not about replacing tradies; it’s about giving them their time and edge back.
+
+This positions your Hermes agent (or product team) perfectly to validate with quick user interviews or a minimum viable prototype focused on one trade (e.g., electricians or plumbers in Sydney metro). The market is ready, the pain is acute, and the upside is clear. Let’s turn quoting from a necessary evil into a competitive superpower.
+
+Ready to refine the pitch deck, user flows, or next research (e.g., competitor teardown or target customer interviews)? Just say the word.
+95 sources
+
+I want a prompt that will sent my ai to research, iterate and produce a report for me.
+
+Here is the exact prompt you can copy-paste and send directly to your Hermes agent.
+
+Prompt for Hermes:
+
+You are an expert market researcher, industry analyst, and business strategist specializing in the trades and construction sector (electricians, plumbers, carpenters, builders, painters, etc.). Your job is to produce a world-class, evidence-based research report and business case.
+
+Product name: “Don’t Quote Me”
+
+Core problem to investigate (do NOT jump to the solution yet):
+Tradespeople waste enormous time and money on the quoting workflow — phone calls, site visits, manual measurements, taking photos, creating Bills of Materials (BOM), chasing supplier prices, drafting quotes, and revisions. Many quotes never convert into paid work.
+
+Your task:
+
+    Conduct deep, multi-source research into the real pain points of quoting for tradespeople.
+        Use web searches, industry reports (Master Builders Australia, HIA, Tradify, ServiceTitan, etc.), contractor surveys, Reddit/Facebook trade groups, forums, LinkedIn discussions, and any recent statistics (2024–2026 data preferred).
+        Focus on hard evidence (conversion rates, hours wasted per week, financial impact, margin erosion, rework costs) and anecdotal stories from actual tradespeople and customers.
+        Key pain categories to cover: time/labour intensity, low conversion rates (“time wasters”), inaccurate estimates, price volatility, scope creep, lost opportunities, burnout, and inability to scale.
+
+    Iterate your research:
+        After your first round of findings, run additional targeted searches to validate, deepen, or find counter-examples.
+        Cross-reference Australian data where possible (you are targeting the AU market first).
+        Note any gaps and fill them before finalising.
+
+    Synthesise into a professional report with this exact structure:
+        Executive Summary (½ page max)
+        The Problem – detailed breakdown of pain points with evidence + real tradie stories
+        Market Opportunity – size of the trades sector in Australia, quoting software trends, why now is the right time
+        The “Don’t Quote Me” Solution – describe the multimodal mobile app (voice notes + on-site measurements + photos → AI-generated BOM, quantity estimates, real-time supplier pricing via APIs like Bunnings, professional draft quote, 3D sketch/schematic, future auto-ordering). Pitch ONLY efficiency, higher conversions, profitability, time savings, and competitive edge — never sell “AI” as the hero.
+        Business Case & ROI – quantify benefits (time saved, conversion lift, margin protection) with realistic examples for a solo tradie or small team. Include payback period.
+        Risks & Mitigations
+        Conclusion & Next Steps (what the reader should do next)
+
+Tone & Style:
+
+    Professional yet conversational and empathetic to tradies (“we get it, you’re busy on the tools”).
+    Data-driven: every major claim must be backed by a source (use inline citations or footnotes).
+    Persuasive business pitch: focus on money, time, and sanity recovered.
+    Length: 1,800–2,500 words. Use clear headings, bullet points, and short paragraphs.
+    Zero hype. Be brutally honest about the problem and realistic about the gains.
+
+Final instruction:
+Research thoroughly, iterate at least once for depth, then output ONLY the completed report in clean markdown format. Do not add any meta-comments outside the report.
+
+Just paste the entire block above into Hermes and let it run. It’s engineered to force deep research, iteration, and a polished, ready-to-use report that matches exactly what you asked for in our last conversation.
+
+If you want me to tweak the prompt (e.g., make it more Australia-focused, add specific trades, or include competitor analysis), just tell me.
+
+please shorten that instruction for discord maximum message length?
+
+Here’s the shortened version (fits comfortably in one Discord message):
+
+Prompt for Hermes:
+
+You are an expert market researcher & business strategist for the trades/construction industry.
+
+Task: Produce a professional research report + business case for the product “Don’t Quote Me” — a multimodal app that lets tradespeople capture voice, measurements & photos on-site, then instantly generates BOM, quantities, supplier prices (e.g. Bunnings), draft quote & 3D sketch.
+
+Research first: Deeply investigate quoting pain points (time waste, low conversion, inaccurate estimates, volatile pricing, lost jobs). Use web searches, reports (Master Builders, Tradify, etc.), Reddit/forums for stats + real tradie stories. Focus on Australia where possible. Iterate: do a second round of searches to validate/deepen findings.
+
+Output ONLY the report in clean markdown with these sections:
+
+    Executive Summary
+    The Problem (evidence + stories)
+    Market Opportunity
+    The “Don’t Quote Me” Solution (pitch efficiency, conversions & profitability — never hype AI)
+    Business Case & ROI (quantify time saved, win-rate lift, margin gains)
+    Risks & Mitigations
+    Conclusion & Next Steps
+
+Tone: professional, empathetic to busy tradies, data-driven, persuasive on money/time saved. 1,800–2,500 words. Cite sources. No meta comments.
+
+Copy-paste ready. Let me know if you need it even shorter!
+
+This idea is like another App to learn. If we're to radically change the delivery model to service as a software per https://x.com/_heyrico/status/2050902054827360279?s=20. What would that look like for the narrow band workflow of quoting?
+
+Service as a Software (not another app to learn)
+
+The X post you linked nails the shift: instead of selling tools that tradespeople have to learn and operate (classic SaaS/app model), you sell the finished outcome — a complete, professional quote — with the AI (and any light human wrap) doing the actual work.
+
+For the narrow, high-friction quoting workflow, this is a perfect fit because quoting is:
+
+    Highly repeatable (same shape every time: scope → BOM → pricing → quote).
+    Already semi-outsourced in many trades (tradies hate it but pay for it indirectly via time).
+    Measured purely by outcome (did the customer accept the quote? Was it accurate and fast?).
+    High enough margin to make a cheap-per-quote service feel magical.
+
+What “Don’t Quote Me” as Service as a Software Would Actually Look Like
+
+Core Promise to the Tradie
+“Send us the job details. We’ll return a ready-to-send, priced, professional quote (with 3D sketch) in under 30–60 minutes — no app to learn, no measurements to take yourself.”
+
+New Delivery Model (Zero Learning Curve)
+
+    Input is Stupidly Simple
+        Tradie records a quick voice note on site + snaps photos + gives rough dimensions (or even just “kitchen reno, 4m x 3m, check photos”).
+        They send it via WhatsApp, SMS, email, or a dead-simple one-field web form. No login, no new app.
+    The Service Does Everything
+        AI agent analyses voice + photos (multimodal vision).
+        Auto-generates detailed BOM, accurate quantities, real-time supplier pricing (Bunnings API + others).
+        Produces a polished PDF quote + 3D schematic.
+        Optional light human review (for complex jobs) to hit 99% accuracy.
+        Returns the finished quote directly to the tradie (or, with permission, straight to the customer).
+    Pricing Model
+        Pay-per-quote (e.g. $15–$35 per quote depending on job size).
+        Or flat monthly subscription for unlimited quotes (the “software pricing” compression the post talks about).
+        Dramatically cheaper than the tradie’s own time (they currently “pay” 2–3+ hours per quote in lost billable work).
+    Workflow for the Tradie
+    Old way (app model): Download app → learn UI → do measurements on site → fight with BOM → chase prices → format quote → review → send.
+    New way (Service as a Software):
+        On site → voice note + photos → hit send.
+        30–60 mins later → “Here’s your quote, ready to forward to the customer.”
+        They just review & send (or let the service send it directly).
+
+Radical Advantages
+
+    Zero adoption friction — tradespeople hate learning new apps. This feels like hiring a super-fast virtual quoting assistant.
+    Captures the full $1 + $6 (software + labour) that the post talks about. You’re not selling a tool; you’re replacing the entire quoting labour cost.
+    Faster iteration & defensibility — you own the end-to-end service, the data (quotes → better AI), the supplier relationships, and the customer relationship.
+    Scales insanely — marginal cost per additional quote approaches zero once the agent is tuned.
+
+Potential Evolution
+
+    Start narrow (e.g. kitchen/bathroom renos or electrical fit-outs).
+    Add “white-glove” tier where the service also follows up with the customer.
+    Future: auto-acceptance + order placement once customer says yes.
+
+This is the “AI does the job” version instead of “AI helps you do the job.” It turns “Don’t Quote Me” from another tool tradies have to learn into an invisible service that just gets quotes done.
+
+Would you like me to sketch the exact customer journey, pricing tiers, or a prompt you can feed Hermes to flesh this out further?
+
+I like the user interface to be just a chat app like Telegram or Whatsapp. Each quote is a different chat session. Users would initiate a quote and a they use the chat for audio recording, video recording, photos, messages. They will interact with our quote agent to work with them and fine tune the quote until they are happy with the results. In the end is a PDF quote they can send to their customer. Please critique this idea and play devils advocate on where it can fail and how to improve it. iterate till we nail down this workflow.
+
+Critique + Devil’s Advocate + Iterated Workflow for Chat-Based “Don’t Quote Me”
+
+I love the direction — a WhatsApp/Telegram-style chat interface is genius for tradies. It removes every adoption barrier. No new app to learn, no UI to fight with on site. It feels like texting a super-fast, smart quoting assistant. This aligns perfectly with “Service as a Software”: the tradie isn’t using software — they’re just chatting with the service that does the quoting for them.
+What’s Strong About This Idea
+
+    Zero learning curve — tradies already live in WhatsApp/Telegram.
+    Naturally multimodal — voice notes, photos, short videos, text — exactly what you need on-site.
+    Collaborative & human-like — fine-tuning feels like a conversation, not filling forms.
+    Session-per-quote keeps everything contained and easy to reference later.
+    Final PDF output is the clear “done” moment.
+
+Devil’s Advocate: Where This Can Fail (and Fail Hard)
+
+Here’s the brutal truth:
+
+    Tradies hate typing or long chats on site
+    They’re sweaty, dusty, holding tools, bad signal, one hand free. If the agent forces too many back-and-forth messages, they’ll abandon it and go back to their old way.
+    Context & memory problems
+    Voice notes + random photos + half-sent messages = messy input. The agent can hallucinate quantities, miss scope, or forget details from earlier in the chat. One wrong assumption and the quote is useless.
+    Speed kills
+    Real-time vision + LLM analysis of photos/video is slow and expensive. If the tradie waits >30–60 seconds for a reply, they’ll get frustrated and bail.
+    Error = Liability
+    Quotes are semi-binding. If the agent underprices materials or misses something, the tradie eats the loss or looks unprofessional. “The AI got it wrong” is not a good excuse to a customer.
+    Session management nightmare
+    What happens when they need to pause mid-job, come back later, or duplicate a quote for a similar job? Chat history can become chaotic.
+    Adoption cliff for complex jobs
+    Simple jobs (e.g. replace 3 power points) = great. Big reno with 40 photos and unclear scope = death by clarification questions.
+    Privacy & professionalism
+    Sending job-site photos (including customer homes) into a chat raises data concerns. Some tradies want it to feel more “professional” than a casual WhatsApp thread.
+
+Iterated & Nailed-Down Workflow (Version 3 — Refined)
+
+After playing devil’s advocate and iterating, here’s the tightest version that fixes the biggest failure modes while keeping the chat experience:
+
+Core Philosophy
+“Text your quoting assistant like you text your apprentice — it does 90% of the work, you just confirm.”
+
+Exact Workflow
+
+    Start a New Quote (30 seconds)
+        Tradie opens the dedicated “Don’t Quote Me” chat (or WhatsApp/Telegram bot).
+        Types /new or taps “New Quote” button → instantly creates a new chat thread titled “Quote – [Customer Name] – [Date]”.
+        First message from agent: “Hi [Tradie Name], ready when you are. Send voice note, photos, or quick description of the job.”
+    On-Site Capture (Natural & Fast)
+        Tradie sends: voice note (preferred), photos, short video walk-through, text notes.
+        They can send everything in one burst — no need to wait.
+        Agent immediately acknowledges: “Got it — 12 photos + 47-second voice note. Analysing now…”
+    Agent Does the Heavy Lifting (Proactive)
+        Within 20–40 seconds the agent replies with:
+            Draft BOM + quantities (auto-estimated from photos/voice).
+            Real-time pricing (Bunnings etc.).
+            Rough 3D sketch preview.
+            One-sentence summary: “This looks like a standard kitchen reno with new cabinets and splashback. I assumed standard materials — correct?”
+        Agent asks maximum 2–3 smart clarification questions at a time (never a laundry list).
+    Collaborative Fine-Tuning (Chat = Control)
+        Tradie replies conversationally:
+            “Add under-bench lighting”
+            “Make the cabinets premium instead of standard”
+            “Remove the splashback, they’re keeping the old one”
+        Agent instantly updates the draft and shows the revised version (with highlighted changes).
+        Tradie can say “looks good” or keep tweaking.
+    Finalise & Deliver (One Tap)
+        Tradie types “Finalise” or taps a button.
+        Agent generates the polished PDF (branded with tradie’s logo, terms, etc.).
+        Sends PDF back in chat + option to “Send directly to customer” (with tradie’s approval).
+        Chat thread is automatically archived and linked to the job for future reference.
+
+Key Improvements That Kill the Failure Modes
+
+    Speed first: Agent always replies fast with a draft — never leaves the user waiting for questions.
+    Burst input allowed: Tradie can dump everything at once; agent handles messy input gracefully.
+    Smart defaults + assumptions: Agent makes educated guesses and flags them clearly (“I assumed standard power points — change?”).
+    Human safety net: For jobs over $5k or flagged as complex, a human reviewer is looped in automatically (still within the same chat, invisible to user).
+    Session smarts: Easy “/duplicate”, “/resume [job name]”, searchable archive.
+    Offline-friendly: Voice/photos queue and send when signal returns.
+    Branding & trust: Chat can be white-labelled (“Quote Assistant for [Your Company]”) and include the tradie’s logo on the final PDF.
+
+Pricing Reminder (Service as a Software)
+$19–$29 per quote or $99–$199/month unlimited. The tradie pays for the outcome, not the tool.
+
+This version feels like texting a very smart, very fast employee rather than using software. It should convert extremely well with tradies.
+
+Quick Questions to Lock This In
+
+    Do you want the chat inside a dedicated app, or pure WhatsApp/Telegram bot?
+    Should we allow one-tap “voice-only mode” for tradies who hate typing?
+    Any specific trades we should optimise the first version for (e.g. electricians vs builders)?
+
+Want me to write the exact agent prompt/script for this chat flow next?
+
+Before we proceed, Is this service ripe for this type of service as a software model?
+
+Yes — this service is highly ripe for the "Service as a Software" model.
+
+The quoting/estimating workflow in trades is one of the best narrow-band processes for this approach. Here's a clear, evidence-based assessment.
+Why It's Ripe (Strong Market Validation)
+
+    Proven Demand for Outsourced/Done-for-You Estimating
+    The construction industry already has a mature outsourcing market. Numerous companies (e.g., World Estimating, Total Takeoffs, iAM Builders, AAA Estimating, Real Estimate Services) offer pay-per-estimate or monthly packages. Contractors send plans/photos and receive full takeoffs, BOMs, and bids — often within 24-48 hours. Pricing typically ranges from $100–$500+ per estimate for smaller jobs, or monthly retainers starting ~$1,500 for volume.⁠Worldestimating
+
+    This shows tradespeople already pay for the outcome (a finished quote/estimate) rather than doing it themselves. Your AI-powered version can simply make it faster, cheaper, and more on-site friendly.
+
+    Pain Points Align Perfectly
+    Tradies spend excessive unpaid time on quoting (often hours per job), with low conversion rates and high error risk. Labour shortages and busy on-tool time make in-house estimating unsustainable. Outsourcing frees them to focus on billable work — exactly what "Service as a Software" promises.⁠Iambuilders
+
+    AI Makes It Scalable & Profitable
+    Traditional outsourcing relies on human estimators (higher cost, slower). Multimodal AI (voice + photos + chat) compresses this to minutes, with near-zero marginal cost at scale. You capture the full value (what tradies currently "pay" in lost time + what they pay outsourcing firms). Similar AI tools (HandyQuoter, QuoteIQ, etc.) are already emerging and gaining traction in trades.⁠Handyquoter
+
+    Low Barrier, High Repeat Usage
+    Quoting is repeatable, narrow, and outcome-measurable. Tradies need it for nearly every lead. A chat-based service feels like texting an apprentice — not "learning software."
+
+Potential Risks (Where It Might Not Be Fully Ripe Yet)
+
+    Accuracy & Liability Concerns — Quotes can be semi-binding. Tradies worry about errors (especially with volatile material prices or complex scopes). Traditional services have human oversight and insurance; pure AI needs strong guardrails (human review tier, clear assumptions, easy revisions).
+    Trust & Adoption — Some tradies prefer human estimators for nuanced jobs. On-site signal/quality of inputs (blurry photos, unclear voice notes) can degrade results.
+    Competition — Established outsourcing firms exist, plus emerging AI quoting tools. Differentiation via instant chat + 3D visuals + supplier API pricing is key.
+    Australia-Specific Nuances — Local pricing (Bunnings, etc.), regulations, and trade shortages amplify the need, but compliance (GST, consumer laws on quotes) matters.
+
+Overall, the market is very ready — outsourcing is already common, and AI supercharges it into a high-margin, scalable service.
+Recommendations to Maximise Success
+
+    Start Narrow — Focus on 1-2 trades (e.g., electricians, plumbers, or kitchen/bathroom renos) where scope is repeatable and photos/voice work well.
+    Hybrid Model — Offer pure AI for simple jobs (<$5k) and AI + human review for larger/complex ones.
+    Pricing — $19–$49 per quote (or subscription for volume) undercuts both tradie time cost and traditional outsourcing.
+    Risk Mitigation — Strong disclaimers, revision process, insurance, and "assumption flagging" in every draft.
+
+Bottom Line: Yes, go for it. This is one of the strongest use cases for Service as a Software in trades right now — proven demand + AI timing + massive time pain. The chat interface you described fits beautifully.
+
+Ready to lock in the final workflow, write the agent prompt, or model pricing/ROI?
+60 sources
+
+write me a prompt to get my agent up to speed on this SaaS model so it has context.
+
+Here’s the ready-to-copy prompt for your Hermes agent:
+
+Context & Role for Hermes Agent:
+
+You are now fully briefed on the “Don’t Quote Me” product. This is not a traditional SaaS app. It follows the “Service as a Software” model: we sell the finished outcome (a professional, priced quote with BOM and 3D sketch) as a service, not a tool the tradie has to learn and operate.
+
+Core Product Vision
+“Don’t Quote Me” is a quoting assistant that tradespeople (electricians, plumbers, builders, carpenters, etc.) interact with via a simple chat interface (WhatsApp/Telegram-style). The tradie treats it like texting a very smart, fast apprentice who does 90% of the quoting work.
+
+Key Workflow (Memorise This)
+
+    Each new quote = its own dedicated chat thread.
+    Tradie starts with /new or “New Quote”.
+    On-site, they send voice notes, photos, short videos, and text in any order (burst input allowed).
+    The agent quickly analyses everything and returns a draft BOM, auto-estimated quantities, real-time supplier pricing (Bunnings etc.), and a 3D sketch preview.
+    Tradie fine-tunes conversationally (“add LED downlights”, “use premium taps instead”).
+    Agent updates the draft instantly and shows changes.
+    When ready, tradie says “Finalise” → agent delivers a polished, branded PDF quote ready to send to the customer.
+    Optional: direct send to customer with tradie approval.
+
+Tone & Positioning
+
+    Never sell “AI”. Always pitch efficiency, time saved, higher conversion rates, better margins, and less stress.
+    Empathetic to tradies: they are busy on the tools, dusty, sweaty, and hate admin.
+    The experience should feel like having a super-competent virtual employee, not using software.
+
+Business Model
+
+    Service as a Software (pay-per-quote $19–$49 or monthly unlimited subscription).
+    Goal: radically lower the friction and cost of quoting so tradies can quote more jobs, win more work, and protect margins.
+
+Current Constraints & Style Rules
+
+    Always prioritise speed (fast first draft).
+    Make smart assumptions and clearly flag them.
+    Max 2–3 clarification questions at a time.
+    Support messy real-world input (blurry photos, unclear voice).
+    Include human review safety net for large/complex jobs.
+    Final PDF must look professional and branded.
+
+Your Role Going Forward
+You now have full context on this product and model. When I ask you to research, write copy, design prompts, create user flows, marketing material, or generate anything for “Don’t Quote Me”, you must stay 100% consistent with the above vision and workflow.
+
+Do you understand the full context? Reply with “Context locked ✅” and then wait for my next instruction.
+
+How to use it:
+
+    Paste the whole block into your Hermes agent.
+    It will confirm understanding.
+    Then you can give it follow-up tasks (e.g. “Write the system prompt for the quote agent”, “Create onboarding messages”, “Draft marketing copy”, etc.).
+
+Would you like me to also write a shorter version (if your agent has token limits) or a more detailed system prompt for the actual quote-handling AI?
+
+Does this agent require any existing quote data, business rules, etc. or does are LLMs sufficiently skilled to be able to execute on the process?
+
+Short Answer:
+LLMs are sufficiently skilled to execute the core process effectively right now, especially with strong prompting, multimodal capabilities (e.g., GPT-4o, Claude 3.5/4, Grok, Gemini), and proper scaffolding.
+
+However, for production-grade reliability, accuracy, and professionalism in a paid quoting service, you will need some supporting elements (business rules, reference data, integrations). Pure zero-shot LLMs alone are good for a strong MVP but risky for consistent real-world use.
+Breakdown: What LLMs Can Do Well Out-of-the-Box
+
+Modern LLMs excel at:
+
+    Interpreting voice notes + photos/videos for job scoping (multimodal models handle this surprisingly well).
+    Generating logical Bills of Materials and quantity estimates from descriptions.
+    Reasoning through labour steps, standard practices, and basic pricing logic.
+    Conversational fine-tuning (“add downlights”, “upgrade to premium”).
+    Formatting professional PDF-style quotes.
+
+Recent evidence (2025–2026):
+
+    AI tools achieve 90%+ accuracy on quantity takeoffs and up to 97% on cost predictions in controlled scenarios.⁠Markovate
+    Structured prompting (Chain-of-Thought) boosts performance dramatically — from ~64% confidence (zero-shot) to ~84%+.⁠Preprints
+    Real-world AI estimating tools already cut estimation time by 50–98% with low variance when using refreshed data.⁠Monograph
+
+Your chat-based workflow plays to LLMs’ strengths: natural language input and iterative conversation.
+Where LLMs Fall Short Without Extra Support
+Area	LLM Alone (Zero-Shot)	What You Should Add for Reliability
+Quantity Accuracy	Good for simple jobs; ~70-85%	Reference templates, past job examples (RAG), or basic measurement logic
+Pricing	Generic/outdated	Essential: Real-time API calls (Bunnings has public partner APIs) + your margin/labor rates
+Trade-Specific Rules	Misses nuances (AU codes, common practices)	Business rules library (e.g., “always add circuit protection for electricians”)
+Consistency	Can hallucinate or vary between sessions	Few-shot examples, system prompts with rules, human review tier for >$5k jobs
+3D Sketch / Visuals	Basic descriptions; limited generation	Integration with a dedicated 3D tool or image gen model
+Liability & Professionalism	No built-in accountability	Clear assumptions flagging, disclaimers, audit trail, branded templates
+
+Key Insight: Pure LLMs struggle most with volatile, location-specific, or highly standardised data (current material prices, regional labour rates, exact Bunnings SKUs). That’s where external data/rules shine.⁠YouTube
+Recommended Minimal Setup for Your Agent
+
+You don’t need massive training data upfront. Start lean:
+
+    Strong System Prompt (most important) — Include:
+        Trade-specific guidelines (per trade: electrician, plumber, etc.).
+        Standard assumptions and when to flag them.
+        Pricing logic + margin rules.
+        Always ask for confirmation on key assumptions.
+    Reference Data / RAG:
+        Library of common job templates (e.g., “standard kitchen reno”).
+        Historical quotes (even 20–50 good examples dramatically improve consistency).
+        Product catalogues (via Bunnings API or cached database).
+    Tool Integrations (non-negotiable for real value):
+        Bunnings (and other supplier) price/stock APIs.⁠Developer.live.bunnings
+        PDF generation tool.
+        Optional: Simple measurement calculator or vision model fine-tuned on construction images.
+    Human-in-the-Loop for the first 6–12 months on complex/high-value quotes.
+
+Bottom Line for “Don’t Quote Me”
+
+    MVP Phase: Yes — LLMs + excellent prompting + Bunnings API = usable product you can test with real tradies immediately.
+    Scale Phase: Add lightweight business rules, a small set of reference quotes, and API integrations to hit the 90%+ accuracy users expect from a paid service.
+
+This hybrid approach (LLM reasoning + structured data/tools) is exactly how successful AI quoting tools in construction are built today.
+
+Would you like me to draft:
+
+    The full system prompt for the quote agent?
+    A starter set of business rules/templates?
+    Or an evaluation framework to test LLM performance on sample jobs?
+
+45 sources
+
+Draft full system prompt
+
+Here is the full, ready-to-use System Prompt for your Quote Agent:
+
+System Prompt – Don’t Quote Me Quote Agent
+
+You are “Quote Assistant”, the official quoting assistant for “Don’t Quote Me”. You work for busy Australian tradespeople (electricians, plumbers, builders, carpenters, painters, etc.). Your job is to produce fast, accurate, professional quotes so tradies can spend less time on admin and more time on the tools.
+
+Core Philosophy
+You are like a super-competent, fast, and reliable apprentice who sits next to the tradie on site. You do 90% of the quoting work. The tradie just gives you the raw information and makes final decisions. Never sound like software or hype AI — speak like a helpful, no-nonsense tradie colleague.
+
+Tone
+
+    Practical, friendly, and concise.
+    Empathetic: “I know you’re on site and busy.”
+    Professional but not corporate.
+    Always focused on speed, accuracy, and getting the job won.
+
+Strict Rules
+
+    Always make smart default assumptions and clearly flag them.
+    Never ask more than 2–3 clarification questions at once.
+    Prioritise speed: deliver a first draft as fast as possible.
+    Support messy real-world input (blurry photos, background noise in voice notes, incomplete info).
+    For jobs over $5,000 or high complexity, quietly flag for human review but do not tell the tradie unless asked.
+    All pricing must use current Australian supplier data (Bunnings and others via API when available). Apply the tradie’s standard margins unless they say otherwise.
+    Always include GST in final pricing.
+
+Workflow You Must Follow
+
+    New Quote
+    When the user says “/new”, “new quote”, or starts a fresh chat, greet them and ask for job details: “Ready when you are, [Name]. Send voice note, photos, video, or quick description.”
+    Input Processing
+    Analyse all incoming voice notes, photos, videos, and text. Extract scope, measurements, materials, and any constraints.
+    First Draft (Deliver Fast)
+    Reply with:
+        One-sentence job summary + key assumptions (e.g. “Assuming standard materials and single-phase power”).
+        Clean Bill of Materials (grouped by category).
+        Quantity estimates.
+        Priced total (materials + labour + margin + GST).
+        Simple 3D sketch description or preview (if image generation available).
+        “This is a draft — happy to tweak anything.”
+    Fine-Tuning
+    Respond conversationally to changes (“Add 4 LED downlights”, “Upgrade to premium tapware”, “Remove splashback”). Update the draft, highlight what changed, and show the new total.
+    Finalisation
+    When the tradie says “finalise”, “looks good”, “send quote”, or similar:
+        Generate a clean, branded PDF quote (include tradie’s logo, contact details, terms, validity period, and assumptions).
+        Send the PDF in chat.
+        Offer: “Want me to send this straight to the customer?”
+
+Output Style for Drafts
+
+    Use clean tables or bullet lists.
+    Show subtotals clearly (Materials | Labour | Margin | GST | Total).
+    Flag every major assumption.
+    Keep replies under 400 words when possible.
+
+Safety & Professionalism
+
+    Never guarantee prices — material costs change. Always note “Prices current as of [time]”.
+    If something is unclear or high-risk, say so.
+    Protect customer privacy: never store or share photos beyond generating the quote.
+    If input is insufficient for a reliable quote, politely ask for missing info rather than guessing wildly.
+
+Trade Knowledge
+You have strong built-in knowledge of standard Australian trade practices, common materials, typical labour times, and job scopes for residential and light commercial work. Use it. For specialist or unusual jobs, ask targeted questions.
+
+You now have full context on the “Don’t Quote Me” Service as a Software model. Stay consistent with it at all times.
+
+This prompt is battle-tested in structure: role → philosophy → rules → workflow → outputs → safety.
+
+Next Steps Recommendation
+Would you like me to also draft:
+
+    The welcome / onboarding messages for new users?
+    Few-shot examples to append to this prompt (highly recommended for consistency)?
+    Trade-specific rule add-ons (e.g., Electrician rules, Plumber rules)?
+
+Just say the word and I’ll deliver them.
+
+What's the moat here? How is this service sticky to the customer? What's the stop a simple prompt to an AI to create this business? Iterate on how we can create an excellent user experience that is value for money and customers don't want to leave or the cost of leaving is just now worth it? How do we create stickiness? For example, how do we using customer quote data to refine the and improve not he accuracy of the quote etc. Is there way to tokenise quotes or is the secret cause the system prompt?
+
+The Moat, Stickiness, and Why a Simple Prompt Won’t Kill This Business
+
+You’re right to ask this early — in the 2026 AI landscape, most “AI quoting” ideas can be replicated with a decent prompt + multimodal model. But “Don’t Quote Me” has real defensibility if we build it the right way. Here’s the clear-eyed breakdown.
+1. What’s the Actual Moat? (It’s Not the System Prompt)
+
+The system prompt is zero moat — anyone can copy-paste it. The real moat is a compound flywheel that generic AI can’t touch:
+Moat Layer	Why It’s Hard to Copy	Strength for This Service
+Proprietary Per-Tradie Data	Every quote, assumption, tweak, and outcome becomes private RAG knowledge	High – builds over time per business
+Workflow Embedding	Lives inside WhatsApp/Telegram (where tradies already live)	Very High – zero switching friction
+Real-Time Integrations	Bunnings + other AU supplier APIs + live pricing	Medium-High – requires partnerships
+Human Safety Net + Trust	Hybrid AI + optional human review for big jobs	High – tradies won’t trust pure AI on $10k+ quotes
+Community & Brand	“The quoting assistant Australian tradies actually use”	Medium – grows via referrals
+
+From recent analysis of AI estimating tools (Handoff.AI, Togal.AI, Buildxact, etc.), the winners aren’t the ones with the smartest generic model — they’re the ones with deep workflow ownership and messy, real-world data that improves only for their users. Generic AI fails here because it lacks your tradie’s specific pricing logic, past job quirks, and margin habits.
+2. Why a Simple Prompt to Another AI Won’t Steal Your Business
+
+    A lone tradie prompting Claude or GPT will get a one-off quote, but no memory, no supplier pricing, no 3D sketch, no branded PDF, no history.
+    No flywheel: Their quotes don’t get smarter over time.
+    No trust: “I used ChatGPT” doesn’t win jobs the way “My quoting assistant nailed it again” does.
+    No scale: They still do the admin themselves.
+
+Your edge is turning the service into an invisible virtual employee whose performance compounds with every quote they send through you.
+3. Creating Real Stickiness — Iterated UX That Makes Leaving Expensive
+
+The goal: Make the cost of switching > the cost of staying. Here’s the iterated playbook, building directly on your chat-first model.
+
+Core Stickiness Engine: The Personalised Data Flywheel
+
+    Every quote the tradie sends through you is automatically saved (with their permission) as private RAG context.
+    The agent gets smarter for that specific tradie:
+        “You always add 15% contingency on renos — shall I include it?”
+        “Last three kitchens you quoted used premium tapware — keeping that default?”
+        Auto-flags recurring scope creep they’ve missed before.
+    Result: Accuracy and speed improve monthly. After 20–30 quotes, it feels like it knows their business better than they do.
+
+Iterated User Experience (Version 4 — Sticky Edition)
+
+    Onboarding (first 3 quotes free or $9 each)
+        Immediate value + data seeding. Agent asks: “Tell me your usual margins, favourite suppliers, common add-ons.” This builds the initial RAG profile.
+    Daily Chat Flow (Zero Friction)
+        /new → instant thread.
+        Burst input still works, but now the agent says: “Compared to your last 3 similar jobs, this one looks 12% higher on labour — intentional?”
+        One-tap “Apply my usual rules” button.
+    Post-Quote Intelligence (The Lock-In Layer)
+        After customer accepts/rejects: Tradie simply forwards the customer reply into the thread → agent logs win/loss + reason.
+        Monthly private report: “Your win rate this month: 68% (industry avg 38%). Here’s why you lost the other 32% + how to fix.”
+        “Quote Insights” tab in the chat: searchable history, average margins by trade type, common customer objections.
+    Loyalty & Pricing That Rewards Volume
+        Tiered: First 10 quotes/month = $29 each.
+        11–50 = $19. Unlimited = $149–$249/month.
+        “Quote credits” never expire and roll over — creates sunk-cost feel.
+        Referral: Both tradie and referee get 5 free quotes.
+    Deeper Integrations (Future but Powerful)
+        One-click export to Xero/MYOB or job management tools.
+        Optional: Auto-create job in their existing system once quote is accepted.
+        Anonymised benchmarks: “Tradies in Sydney with similar job mix are winning 8% more by adding provisional sums here.”
+
+Tokenising Quotes?
+Not in the blockchain sense (that adds zero value for tradies). Instead, treat every quote as a data token internally: each one improves the model for that user and (anonymously) for similar users. This is the real “tokenisation” — turning quotes into compounding intelligence.
+4. How to Make the Experience So Good They Never Want to Leave
+
+    Speed + Delight: First draft in <45 seconds. Revisions feel like texting your best apprentice.
+    Emotional Hook: Agent remembers personal details (“How’s the new ute going?” or “Congrats on landing that big reno last week”).
+    Risk Reversal: “If this quote loses you the job due to our error, we refund the quote fee + $100 goodwill.”
+    Community Moat: Build a private tradie-only group (or Slack) where users share tips. The best ideas feed back into the agent.
+
+Bottom Line on Stickiness
+Switching cost becomes massive because:
+
+    All their quote history + learned rules live only with you.
+    The agent literally gets better the more they use it.
+    They’re already living in the chat interface they love.
+
+This is exactly how the strongest AI-era services are building moats in 2026: not better models, but deeper ownership of the customer’s workflow and data.
+
+Want me to draft the actual RAG architecture for the personalised agent, the monthly insights report template, or the pricing page copy that sells this stickiness? Or shall we pressure-test this with a competitor teardown?
+50 sources
+
+Pressure test this first with a competitor teardown.  I don't want this product/service to be a feature in a mature market product can just add.
+
+Competitor Teardown: Pressure-Testing "Don’t Quote Me" (Service-as-Software, Chat-First Model)
+
+I dug into the current 2026 landscape (AI estimating tools, Australian tradie software, outsourced services, and chat-based experiments). Here’s the honest assessment: your idea is differentiated enough to stand alone, but the window is narrowing. Many players are adding AI features, yet none fully own the "text your assistant and get a finished quote" experience in a pure, low-friction way.
+Key Competitors & Gap Analysis
+
+1. Full-Featured Job Management Platforms (Tradify, Buildxact, ServiceM8, SimPRO, Fergus) – Australia-Focused
+
+    These dominate AU tradies (electricians, plumbers, builders). They excel at quoting inside their app: templates, price lists, scheduling, invoicing.
+    AI additions: Buildxact has “Blu” (AI assistant for estimates, live dealer pricing, takeoff reviewer). Others have basic AI proposal generators.
+    Weaknesses vs. Your Idea:
+        Still require learning and living inside their app/dashboard.
+        On-site capture is clunky (not natural voice + photo bursts in a familiar chat).
+        Quoting is a feature, not the core service. Tradies still do most of the work.
+        No deep personalisation flywheel per tradie (history improves the whole platform, not your agent specifically).
+    Threat Level: High for feature creep. Buildxact or Tradify could add a WhatsApp bot wrapper. But they’re bloated all-in-one tools — your narrow focus on “instant professional quote via chat” stays lighter and stickier for solo/small teams who hate complex software.⁠Softwareadvice
+
+2. Pure AI Estimating/Takeoff Tools (Togal.AI, STACK, Handoff.AI, QuoteIQ, Beam)
+
+    Strong on plan takeoffs (blueprints/PDFs) with 90–98% accuracy claims. Some do on-site photos.
+    Handoff.AI and QuoteIQ lean residential/remodel with photo analysis and proposals.
+    Gaps:
+        Mostly desktop/web-first, not on-site chat-native.
+        Focus on takeoff/estimating — you still format, price, and finalise the quote.
+        No conversational fine-tuning in a natural WhatsApp-style thread.
+        Pricing is subscription-heavy ($149–$299+/mo), not cheap pay-per-quote.
+    Threat Level: Medium. They solve part of the problem but don’t deliver the “done-for-you outcome” in a chat you already use. Your Service-as-Software model compresses the entire workflow.⁠LinkedIn
+
+3. Outsourced Estimating Services (Human + Hybrid)
+
+    Traditional firms (and some AI-augmented like Melt Takeoff) where you send plans/photos and get estimates back (often 24–48 hrs, $100–$500+ per job).
+    Gaps: Slow, expensive, no real-time iteration, no on-site immediacy, no 3D sketch.
+    Your Edge: You’re the AI-native, instant version of this — cheaper, faster, always available.
+
+4. Emerging Chat/WhatsApp Experiments
+
+    A few Telegram/WhatsApp bots exist (n8n templates, small UK experiments generating £1.5M in quotes). They prove demand for chat-based quoting.
+    None appear scaled with real-time supplier APIs, personalised RAG per tradie, branded PDFs, human safety net, and 3D output in Australia.⁠LinkedIn
+
+Pressure-Test Verdict: Is This Just a Feature a Big Player Can Add?
+
+    Yes, partially — Buildxact/Tradify could bolt on a WhatsApp agent. Procore or ServiceTitan might add similar AI chat.
+    But unlikely to kill you quickly:
+        Big platforms move slowly on narrow, delightful UX. They protect their all-in-one revenue.
+        Your moat (personalised per-tradie data flywheel + zero-app adoption) is hard to replicate without starting from scratch in the chat layer.
+        Tradies who hate learning new software will prefer a pure service over “yet another module in Tradify.”
+
+Biggest Risks Exposed:
+
+    Speed of AI feature adoption in 2026 is high — you must ship fast and own the chat interface.
+    On-site multimodal reliability (blurry photos, poor signal) remains a shared weakness.
+    Liability on pricing accuracy — all tools disclaimer heavily.
+
+How to Stay Defensible (Refined Recommendations)
+
+    Narrow & Own the Chat Layer: Be the “WhatsApp quoting assistant every tradie uses” — not another estimating app. White-label for bigger firms later.
+    Double Down on Personalisation: Private RAG per user (quote history, margins, preferences) creates real lock-in that generic platforms can’t match easily.
+    Hybrid Human Tier: For $5k+ jobs — this builds trust no pure-AI tool has yet.
+    Data Flywheel Speed: Offer first 10–20 quotes heavily discounted to seed profiles quickly.
+    Supplier Partnerships: Deep Bunnings integration + others = pricing moat.
+    Avoid Feature Bloat: Resist adding full job management early. Stay laser-focused on quoting excellence.
+
+Overall: Your concept survives the teardown. The market has many tools, but no one owns the invisible, chat-native, Service-as-Software quoting assistant for busy Australian tradies. The opportunity window is now — but execute ruthlessly on simplicity, speed, and personalisation.
+
+Want me to expand this into a full SWOT, model pricing against competitors, or draft positioning copy that highlights these gaps? Or move to the agent prompt refinements?
+65 sources
+
+draft positioning copy that highlights these gaps
+
+Here’s ready-to-use positioning copy for “Don’t Quote Me”. It’s written in a tradie-friendly, no-hype tone that directly calls out the gaps in existing tools.
+Hero Section (Website / Landing Page)
+
+Stop wasting hours on quotes that might never land.
+
+Don’t Quote Me is the quoting assistant that works exactly like texting your best apprentice — except this one never sleeps, never forgets your margins, and delivers a finished, professional quote in minutes.
+
+No new app to learn.
+No complex dashboards.
+No more sitting in the ute doing admin after dark.
+
+Just open WhatsApp or Telegram, send voice notes + photos from the job, and get a complete priced quote back — ready to forward to your customer.
+Why Most Quoting Tools Still Feel Painful
+What Most Tools Give You	What You Actually Want	Don’t Quote Me Delivers
+Another full-blown job management app	Something that just does the quote	Pure chat in WhatsApp/Telegram
+You still build the BOM and chase prices	Someone (or something) that does it for you	Done-for-you outcome — first draft in under a minute
+Generic templates that don’t know your business	Your own rules, margins & favourite materials remembered	Personal memory that gets smarter with every quote you send
+Desktop-first or clunky mobile	Works on site with dirty hands	Voice, photos, video — send it all in one burst
+Subscription even if you only quote 5 jobs a month	Pay for what you actually use	Cheap per-quote or low monthly unlimited
+The Difference Is Simple
+
+Tradify, Buildxact, ServiceM8 & SimPRO
+→ Powerful all-in-one systems. Great if you want to run your entire business inside one platform.
+→ But you still have to learn the software, enter the data, and do most of the quoting work yourself.
+
+AI Takeoff Tools (Togal, STACK, Handoff, etc.)
+→ Good at reading plans.
+→ Still leave you formatting, pricing, and polishing the final quote.
+
+Traditional Estimating Services
+→ Expensive and slow (24–48 hours).
+
+Don’t Quote Me
+→ The only service that treats quoting as a complete done-for-you outcome delivered inside the chat app you already use every day.
+→ Your own private quoting assistant that learns your business, not the whole industry.
+Real Talk from a Bloke on the Tools
+
+You didn’t get into trade to become a spreadsheet jockey.
+You want to walk onto site, snap a few photos, send a quick voice note, and 30–60 minutes later have a proper quote with BOM, current Bunnings prices, labour, margin, and even a simple 3D sketch — all branded and ready to send.
+
+The more you use it, the better it gets. After 10–20 quotes it already knows:
+
+    Your standard margins
+    The materials you always specify
+    Common things your customers usually add or remove
+
+That’s why tradies who try it don’t go back.
+Ready to Quote Faster and Win More Jobs?
+
+First 10 quotes are heavily discounted so you can see the difference for yourself.
+
+No contracts. No long setup. Just chat.
+
+[Get Started in 60 Seconds →]
+Alternative Short Version (for X / LinkedIn / Facebook Ads)
+
+“Tired of quoting tools that still make you do all the work?
+
+Don’t Quote Me is different.
+
+You text it like an apprentice — voice notes + photos from site — and it returns a full priced quote with BOM, current prices, and 3D sketch.
+
+No app to learn.
+No bloated software.
+Just a smarter, faster way to get quotes out and jobs in.
+
+Most tools add features.
+We removed everything except the part that actually matters: getting the quote done.”
+
+This copy directly highlights the competitor gaps without naming them aggressively. It positions you as the simple, outcome-focused alternative rather than “yet another AI tool”.
+
+Would you like:
+
+    A longer version for a sales page?
+    Email sequence copy?
+    Pitch deck slide versions?
+    Or a more aggressive “Why we’re better” comparison table?
+
+Give me the technical architecture for tech stack that can execute on this solution.
+
+Technical Architecture for “Don’t Quote Me”
+(Production-ready, 2026 stack designed specifically for the Service-as-Software, chat-first quoting assistant)
+1. High-Level Architecture Overview
+
+Tradie (on-site)
+   ↓ (voice / photos / video / text)
+WhatsApp Business API  or  Telegram Bot API
+   ↓ (webhook)
+Backend Orchestrator (FastAPI + LangGraph)
+   ↓
+Stateful Quote Agent (per-quote thread + per-tradie RAG)
+   ├── Multimodal LLM (Claude 3.5/4 or GPT-4o / Gemini)
+   ├── Tools:
+   │   ├── Vision analysis
+   │   ├── Bunnings Partner API (pricing/stock)
+   │   ├── RAG memory (user history + preferences)
+   │   ├── PDF generator
+   │   └── 3D sketch renderer
+   ↓
+Response back to same chat thread + branded PDF
+   ↓ (optional)
+Human review queue (for >$5k or complex jobs)
+
+The entire experience stays inside the tradie’s existing chat app. No new mobile app.
+2. Detailed Tech Stack (MVP → Scale)
+Layer	Technology (2026 Recommendation)	Why This Choice	Alternatives / Notes
+Chat Interface	WhatsApp Business API (via WATI or Twilio) + Telegram Bot API	Tradies already live in WhatsApp (AU #1). WATI/Twilio give reliable webhooks, templates, media support, and AU compliance. Telegram is zero-cost backup.	Respond.io, 360dialog, or direct Meta BSP if volume justifies it.
+Backend / Orchestration	Python + FastAPI + LangGraph (LangChain ecosystem)	LangGraph is the 2026 gold standard for stateful, reliable agents. Handles conversation memory, tool calling, branching logic (e.g. “need clarification?”), and per-quote sessions perfectly.	Node.js + LangGraph.js if you prefer JS; n8n for no-code prototyping.
+LLM / Reasoning	Primary: Anthropic Claude 3.5 Sonnet or Claude 4
+Fallback: GPT-4o or Gemini 2.0 Flash	Best reasoning + native multimodal (images + audio transcription). Excellent at structured output (BOM tables) and conversational tone.	Grok-2 or DeepSeek V3 for cost optimisation later.
+Multimodal Input	Claude/Gemini vision + OpenAI Whisper (or built-in audio)	Handles blurry job-site photos, voice notes, short videos in one prompt.	Gemini 2.0 for strongest native video understanding.
+Personalised Memory / RAG	Supabase pgvector (or Pinecone) with per-user namespaces	Private RAG per tradie = the real moat. Every quote, margin preference, and past tweak improves future accuracy automatically.	Weaviate or ChromaDB for self-hosted.
+Database	Supabase (PostgreSQL + Auth + Storage + Edge Functions)	All-in-one: user accounts, quote history, payment records, media temp storage. Serverless + AU region available.	Neon + PlanetScale if you want more separation.
+File Storage	Supabase Storage or AWS S3 (Sydney)	Temporary storage for photos/videos (auto-delete after 24–48 hrs for privacy).	Cloudinary for advanced image optimisation.
+Real-time Pricing	Bunnings Partner APIs (via developer.live.bunnings.com.au)	Official partner access required (get Product Access Code from Bunnings rep). Falls back to cached catalogue + Oxylabs scraper for non-partner items.	EDI via SPS Commerce/Crossfire as backup. Other suppliers (Mitre 10, etc.) via similar partner APIs.
+PDF Generation	WeasyPrint (Python) or pdf-lib + dynamic templates	Clean, branded PDFs with tradie logo, terms, assumptions, GST breakdown. Rendered server-side and sent directly in chat.	DocRaptor or PDFMonkey for no-code templates.
+3D Sketch / Schematic	Short-term: Grok Imagine / Flux / Midjourney API (image generation)
+Long-term: Meshy.ai or Luma Dream Machine (simple 3D → image export)	“3D sketch” = rendered schematic image first (fast & cheap). Later upgrade to interactive GLB preview.	TripoSR for instant 3D from photos.
+Payments	Stripe (Subscriptions + Usage-based)	Pay-per-quote ($19–$49) or monthly unlimited. Webhooks for instant credit top-up.	Paddle for simpler AU tax handling.
+Human-in-the-Loop	Supabase queue + simple Retool / custom dashboard	Complex jobs (> $5k or flagged) auto-routed to human reviewer who replies in the same chat thread.	Notion or Slack queue for v1.
+Monitoring / Observability	LangSmith + Helicone + OpenTelemetry	Track every LLM call, cost, latency, and failure rate. Critical for controlling token spend.	—
+Hosting / Infra	Fly.io or Render (global) + AWS Sydney for data residency	Low latency for AU tradies, easy scaling, AU data compliance (APPA).	Vercel + Supabase edge for full serverless.
+3. Data Flow & Security (Key for Trust)
+
+    Tradie sends media → Webhook → Backend downloads temporarily to Supabase Storage.
+    Agent triggers → LLM analyses (vision + voice transcription).
+    RAG lookup (user-specific vector store) → Applies personal margins, preferences, past job patterns.
+    Tools fire (Bunnings pricing) → Structured BOM + pricing generated.
+    Draft returned in chat → Tradie iterates conversationally.
+    On “Finalise” → PDF rendered → Sent in chat + stored in user history (for future RAG).
+    All media auto-deleted after processing + quote completion (privacy-first).
+
+Security Highlights:
+
+    End-to-end: Media never stored long-term.
+    Row-level security in Supabase (each tradie only sees their own data).
+    AU data residency.
+    Clear disclaimers on every quote (“Prices current as of X – always verify”).
+
+4. MVP vs. Scale Roadmap
+
+MVP (4–6 weeks):
+WATI + Supabase + LangGraph + Claude 3.5 + Stripe + basic PDF + image-based “3D sketch”.
+
+Phase 2 (3 months):
+Bunnings Partner API live, per-user RAG fully tuned, human review queue, monthly insights report.
+
+Phase 3:
+Multi-supplier pricing, 3D model export, white-label for larger trade businesses, Xero/MYOB export.
+
+This stack is deliberately lean yet production-grade — you can launch with a small team (or even solo + contractors) and scale to thousands of quotes/day without rewriting anything.
+
+Would you like:
+
+    A Mermaid diagram version of the architecture?
+    Detailed cost estimate (LLM + API usage)?
+    The exact LangGraph workflow code skeleton?
+    Or a vendor shortlist + pricing comparison for WhatsApp providers?
+
+Just say the word and I’ll deliver the next piece.
+35 sources
+
+A Mermaid diagram version of the architecture?
+
+Here is a clean Mermaid diagram of the full technical architecture for “Don’t Quote Me”:
+
+Voice notes, Photos, Videos, Text
+
+Webhooks
+
+Complex jobs
+
+Review & reply
+
+Final PDF + Drafts
+
+Tradie on-site\n(dirty hands, ute)
+
+WhatsApp / Telegram\nBusiness API / Bot
+
+Backend Orchestrator\nFastAPI + LangGraph
+
+Quote Agent\nStateful per-quote session
+
+Multimodal LLM\nClaude 3.5/4 or GPT-4o
+
+RAG Memory\nSupabase pgvector\nPer-Tradie Private Data
+
+Tools & APIs
+
+Bunnings Partner API\nPricing + Stock
+
+Vision + Audio\nPhoto / Video / Voice Analysis
+
+PDF Generator\nWeasyPrint
+
+3D Sketch Renderer\nImage / Meshy.ai
+
+(Supabase\nPostgreSQL + Storage)
+
+Stripe\nPay-per-quote + Subscriptions
+
+Human Review Queue\n> $5k or complex jobs
+How to Use This Diagram
+
+    Copy the code above.
+    Paste it into any Mermaid renderer:
+        mermaid.live
+        Notion / Obsidian
+        GitHub Markdown
+        Typora, etc.
+
+Alternative Versions (if you want something different)
+
+Let me know which style you prefer and I’ll generate it immediately:
+
+    Sequence Diagram (step-by-step flow of one quote)
+    C4 Context Diagram (high-level system boundaries)
+    Component Diagram (detailed internal services)
+    Data Flow Diagram (focus on privacy & media handling)
+
+Would you like any of the above, or refinements to this flowchart (e.g. add cost monitoring, auth layer, or deployment regions)?
+
+Sequence Diagram (step-by-step flow of one quote)
+
+Here is the Mermaid Sequence Diagram for the end-to-end flow of one complete quote in “Don’t Quote Me”:
+Human Reviewer (optional)PDF GeneratorBunnings APITools LayerPer-Tradie RAG MemoryMultimodal LLM(Claude 3.5/4)Quote AgentBackend Orchestrator(FastAPI + LangGraph)WhatsApp / TelegramTradie (on-site)Human Reviewer (optional)PDF GeneratorBunnings APITools LayerPer-Tradie RAG MemoryMultimodal LLM(Claude 3.5/4)Quote AgentBackend Orchestrator(FastAPI + LangGraph)WhatsApp / TelegramTradie (on-site)loop[Until Tradie is happy]alt[Job > $5k or complex]/new or "New Quote"WebhookCreate new quote session"Ready when you are. Send voice, photos, video or description."Voice note + Photos + Video (burst)Media + TextProcess inputAnalyse media + voice + extract scopeJob summary + raw dataRetrieve tradie's preferences, past jobs, marginsPersonal rules & historyGet current pricing + quantitiesReal-time price & stock checkPricing dataBOM + priced itemsGenerate draft + 3D sketch previewStructured draftFirst Draft(BOM table, total, assumptions, sketch)"Add LED downlights" or "Upgrade to premium"User messageUpdate requestRevise draft with changesUpdate memory with new preferenceRecalculate pricing if neededFresh pricesUpdated draft + highlighted changes"Finalise" or "Looks good"Generate branded PDF quotePDF filePolished PDF + "Want me to send this to the customer?"Flag for review (same chat thread)Approved / minor editsFinal PDF deliveredSave complete quote + outcome for future learning
+How to View the Diagram
+
+    Copy the entire code block above.
+    Paste it into mermaid.live (best experience) or any Markdown editor that supports Mermaid (Notion, Obsidian, GitHub, Typora, etc.).
+
+This diagram clearly shows:
+
+    The natural chat flow
+    Where the LLM, RAG, and tools are used
+    The fine-tuning loop
+    Human safety net
+    Personalisation flywheel (memory update at the end)
+
+Would you like any modifications, such as:
+
+    A more simplified version?
+    Adding latency / time estimates on arrows?
+    Including payment step?
+    Or a version focused only on the happy path?
+
+Let me know and I’ll refine it instantly.
+Executed code
+
+Explain LangGraph orchestration details
+
+LangGraph Orchestration Details for “Don’t Quote Me”
+
+LangGraph is the stateful orchestration engine that makes the Quote Agent reliable, controllable, and production-ready. It’s part of the LangChain ecosystem (from LangChain Inc.) and is currently one of the best tools in 2026 for building complex, multi-step AI agents.
+Why LangGraph (Not Plain LangChain or Raw LLM Calls)
+
+    Stateful — Remembers everything in a quote session (input media, draft versions, user changes, assumptions).
+    Graph-based — You define the workflow as nodes + edges instead of fragile prompt chains.
+    Cycles & Human-in-the-Loop — Supports loops (fine-tuning) and easy branching to human review.
+    Persistence — Can save the entire graph state to Supabase so a quote can be paused and resumed.
+    Observability — Excellent integration with LangSmith for debugging every step.
+    Tool calling & structured output — Native, reliable support.
+
+Core LangGraph Concepts Used Here
+Concept	What It Is	How We Use It in Don’t Quote Me
+Graph	Directed graph of nodes and edges	The entire quoting workflow
+State	Typed object that flows between nodes (like a shared memory)	QuoteState class containing: customer info, media list, current BOM, pricing, version history, assumptions, tradie preferences
+Node	A function that receives state and returns updated state	process_input, analyze_media, generate_draft, apply_user_changes, create_pdf, etc.
+Edge	Conditional routing (if/else)	“If draft ready → send to user. If user asks for change → loop back. If >$5k → human review”
+Persistence	Checkpointing (save state to DB)	Quote can be paused mid-chat and resumed days later
+Interrupt	Pause graph for human input	Human reviewer steps in for complex jobs
+Recommended Graph Structure (Quote Session)
+
+Change Request
+
+Finalise
+
+Complex / >$5k
+
+Start New Quote
+
+Greet & Wait for Input
+
+Receive Media/Text
+
+Analyze Media + Voice\n(LLM + Vision)
+
+RAG Lookup\nPersonal Preferences
+
+Generate First Draft\n(BOM + Pricing + Sketch)
+
+Send Draft to Tradie
+
+User Reply?
+
+Apply Changes + Recalculate
+
+Generate Branded PDF
+
+Deliver PDF + Log Outcome
+
+Interrupt → Human Review
+
+Save to RAG + Archive Session
+Technical Implementation Sketch (Python + LangGraph)
+
+from langgraph.graph import StateGraph, END
+from langgraph.checkpoint.supabase import SupabaseSaver  # or PostgresSaver
+from typing import TypedDict
+
+class QuoteState(TypedDict):
+    quote_id: str
+    tradie_id: str
+    messages: list          # chat history
+    media: list             # photo/video URLs
+    current_bom: dict
+    total_price: float
+    assumptions: list
+    version: int
+    needs_human_review: bool
+
+# Define nodes (functions)
+def analyze_media(state: QuoteState):
+    # Call Claude vision + Whisper
+    ...
+    return {"current_bom": bom, "assumptions": assumptions}
+
+def generate_draft(state: QuoteState):
+    # Structured LLM call with tools (Bunnings API)
+    ...
+    return {"current_bom": new_bom, "total_price": price}
+
+# Build the graph
+workflow = StateGraph(QuoteState)
+
+workflow.add_node("analyze", analyze_media)
+workflow.add_node("draft", generate_draft)
+workflow.add_node("pdf", generate_pdf_node)
+
+# Edges with conditional routing
+workflow.add_conditional_edges(
+    "draft",
+    decide_next_step,   # function that returns "send_to_user", "human_review", or "finalise"
+    {
+        "send_to_user": "wait_for_user",
+        "human_review": "human_node",
+        "finalise": "pdf"
+    }
+)
+
+# Compile with persistence
+checkpointer = SupabaseSaver.from_conn_string(...)
+app = workflow.compile(checkpointer=checkpointer)
+
+How a Real Quote Session Works in LangGraph
+
+    Tradie sends /new → New graph instance created with unique thread_id (quote ID).
+    Every message from WhatsApp triggers app.invoke() or app.astream() with the new input.
+    LangGraph automatically:
+        Loads latest state from Supabase
+        Runs the appropriate nodes
+        Saves checkpoint after each major step
+    Fine-tuning loop is just an edge that routes back to the draft node.
+    Human review uses interrupt_before=["pdf"] so a reviewer can jump into the same thread.
+
+Key Advantages for This Project
+
+    Reliability — No more “lost context” between messages.
+    Scalability — Each quote runs independently (great for concurrency).
+    Debugging — LangSmith shows exactly which node failed and why.
+    Personalisation — RAG node is called on every draft, pulling the tradie’s private data.
+    Future-proof — Easy to add new nodes later (e.g., “auto-send to customer”, “Xero export”, “win/loss analysis”).
+
+This LangGraph setup is what turns a simple LLM prompt into a robust, production-grade quoting service.
+
+Would you like me to:
+
+    Expand this into full starter code (with state schema + nodes)?
+    Add error handling & retry logic details?
+    Show how human-in-the-loop interrupt works in code?
+
+Let me know the next level of detail you need.
+
+Give me a pitch deck to explain what this service as a software is all about, what it solves, why now with the maturity of the technology we have.  And why it matters we build it.  A formatted professional PDF would nice
+
+Don’t Quote Me Pitch Deck
+Service as a Software for Tradespeople
+(Ready-to-copy into Canva, Gamma.app, PowerPoint, or Google Slides → export as professional PDF in <5 minutes)
+
+Slide 1: Title
+Don’t Quote Me
+
+The quoting assistant that works like texting your best apprentice
+
+Done-for-you quotes in minutes — no app to learn, no admin after dark
+
+[Your Name / Founder]
+May 2026 | Sydney, Australia
+
+(Visual: Clean hero image of a tradie on-site sending a voice note on phone, with a polished quote PDF appearing on the right)
+
+Slide 2: The Brutal Reality
+Tradespeople are bleeding time and money on quoting
+
+    Site visits, measurements, photos, BOMs, price chasing, revisions → hours per quote
+    Median conversion rate: ~38% (62% of quotes are pure time waste)
+    Quotes that don’t convert sit untouched for a median 29 days
+    Australian tradies lose 10–20+ hours/week on non-billable admin like quoting
+
+Result: Burnout, fewer jobs won, eroded margins, and inability to scale in a market desperate for more housing.
+
+(Visual: Split image — left: sweaty tradie in ute doing paperwork at night; right: red “X” on calendar showing wasted days)
+
+Slide 3: Why Traditional Solutions Still Fail
+What Most Tools Offer	What Tradie Actually Needs	The Gap
+Full job-management apps (Tradify, Buildxact, ServiceM8)	Just get the damn quote done	Still requires learning software + manual work
+AI takeoff tools (Togal, STACK, etc.)	Done-for-you outcome with current prices	You still format, price, and finalise
+Outsourced estimating services	Instant, on-site, cheap	24–48 hrs + expensive
+
+Tradies don’t want another app.
+They want the quote finished for them.
+
+Slide 4: The Solution – Service as a Software
+
+Not SaaS. Not another tool.
+
+We sell the finished outcome — a professional, priced quote with BOM, real-time Bunnings pricing, and 3D sketch.
+
+You text your quoting assistant (WhatsApp/Telegram) exactly like you’d text an apprentice:
+
+    Send voice note + photos + video from site
+    Get first draft in <60 seconds
+    Fine-tune conversationally
+    Receive branded PDF ready to send to customer
+
+Zero learning curve. Zero new app.
+
+You focus on the tools. We handle the quoting.
+
+(Visual: Simple chat screenshot flow — voice note in → draft quote out → final PDF)
+
+Slide 5: How It Works (One Quote in 4 Steps)
+
+    Start → /new in your chat
+    Capture → Voice + photos + video (send in one burst)
+    Agent Does the Work → Analyses, builds BOM, pulls live prices, creates 3D sketch
+    You Tweak & Finalise → Conversational updates → Polished PDF delivered
+
+Optional human review for jobs >$5k.
+
+(Insert the Mermaid Sequence Diagram from our earlier conversation here — copy-paste it directly into the slide)
+
+Slide 6: Why Now? Technology Has Finally Matured
+
+2026 is the perfect storm:
+
+    Multimodal LLMs (Claude 4, GPT-5, Gemini 3) now natively handle voice, blurry job-site photos, and video with high accuracy
+    Agentic AI can run the full end-to-end workflow reliably
+    Real-time APIs (Bunnings Partner API + others) deliver live pricing
+    RAG + stateful orchestration (LangGraph) gives every tradie their own personalised memory that improves with every quote
+
+The tech that was “almost there” in 2024–2025 is now production-ready, cheap, and fast enough for on-site use.
+
+We are at the exact moment where Service as a Software becomes possible for narrow, high-pain workflows like quoting.
+
+(Visual: Timeline 2024 → 2026 with icons showing LLM evolution)
+
+Slide 7: Massive Market Opportunity
+
+    Australia construction estimating software market: USD 28.3M in 2024 → USD 57.4M by 2030 (CAGR ~13%)
+    Global construction software exploding at 9–11% CAGR through 2034
+    100,000+ tradies and small builders in Australia alone who quote constantly
+    Labour shortages + housing targets (1.2M new homes) make fast, accurate quoting a competitive superpower
+
+We’re not selling software.
+We’re replacing the unpaid labour cost of quoting.
+
+Slide 8: Business Model & ROI
+
+Service as a Software pricing
+
+    Pay-per-quote: $19–$49
+    Or monthly unlimited: $149–$249
+
+Tradie ROI (realistic)
+
+    Reclaim 10–20 hours/week
+    Lift conversion rate even 10% → tens of thousands in extra revenue
+    Protect margins with live pricing + accurate quantities
+
+Our margins are excellent because marginal cost per quote approaches zero at scale.
+
+Slide 9: Real Moat & Stickiness
+
+The more a tradie uses us, the harder it is to leave:
+
+    Private RAG memory — learns their margins, favourite materials, common add-ons
+    Every quote improves future accuracy and speed
+    Full quote history + win/loss insights live only with us
+    Sunk cost of personalised data + workflow embedded in the chat they already use every day
+
+No generic AI prompt can replicate this compounding intelligence.
+
+Slide 10: Why It Matters We Build This
+
+Because quoting is the single biggest unpaid bottleneck preventing tradies from growing in Australia’s housing crisis.
+
+This isn’t flashy AI hype.
+It’s practical efficiency that gives back time, wins more jobs, and protects profitability.
+
+We’re building the invisible virtual employee every tradie wishes they had — and the first mover who owns the chat layer will own the category.
+
+The window is now.
+
+Slide 11: Next Steps
+
+Let’s make quoting invisible.
+
+    Book a 15-minute demo of the live agent
+    First 10 quotes heavily discounted for early users
+    We can white-label for larger trade businesses later
+
+Ready to stop quoting the old way?
+
+[Get Started →]
+tony@don’tquoteme.com.au | @tonygchung
+
+(Footer on every slide: “Don’t Quote Me — Service as a Software for Australian Trades”)
+
+How to Turn This Into a Professional PDF (2 minutes):
+
+    Copy the entire content above.
+    Paste into Gamma.app (best AI pitch deck tool — auto-formats beautifully) or Canva (search “pitch deck” template).
+    Add the suggested visuals (or let the tool generate them).
+    Export as PDF.
+
+Would you like me to:
+
+    Refine any slide with more specific data/visual suggestions?
+    Generate image prompts for Grok Imagine so you can create slide visuals?
+    Or add speaker notes / financial projections slide?
+
+Just say the word and I’ll iterate instantly.
+20 sources
+
+
